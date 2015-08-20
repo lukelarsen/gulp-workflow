@@ -1,0 +1,131 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE BUTTONS
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Button Sizes
+        Button Types
+        Button Colors
+ */
+
+////
+/// @group buttons
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE BUTTONS
+\*------------------------------------*/
+
+/// Turn on/off buttons for your application
+/// @type boolean
+$use-buttons:                       false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/// How quickly do the buttons sizes scale
+/// @type number
+$btn-size-ratio:                    1.2;
+
+/// Button padding. Can have single or multiple values
+/// @type number
+$btn-padding:                       0.7em;
+
+/// The default button font size
+/// @type number
+$btn-default-font-size:             100%;
+
+/// The size of the button border.
+/// Is only used if border-color in the button color map is selected.
+/// @type number
+$btn-border-size:                   1px;  // Is only used if  border-color is set in the color map below
+
+
+
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Button Sizes
+ */
+
+/// Turn on/off large buttons for your application
+/// @type boolean
+$btn--large:                        false;
+
+/// Turn on/off small buttons for your application
+/// @type boolean
+$btn--small:                        false;
+
+/// Turn on/off block buttons for your application
+/// @type boolean
+$btn--block:                        false;
+
+
+/**
+ * ^Button Types
+ */
+
+/// Turn on/off natural buttons for your application
+/// @type boolean
+$btn--natural:                      false;
+
+/// Turn on/off disabled buttons for your application
+/// @type boolean
+$btn--disabled:                     false;
+
+/// Turn on/off group buttons for your application
+/// @type boolean
+$btn-group:                         false;
+
+
+/**
+ * ^Button Colors
+
+ *      You may use color(blue, dark) to choose colors.
+ *      See ui/options/_color-options.scss for the color map.
+ */
+
+/// A map to set all our button colors.
+/// Found in ui/options/_button-options.scss
+/// @prop {string} name - The name of button color pattern
+/// @prop {color} background - Background color of this button
+/// @prop {color} text-color - Text color of this button
+/// @prop {color} border-color - Border color of this button
+/// @prop {color} background-hover - The hover background color
+/// @prop {color} text-hover-color - The hover text color
+/// @prop {color} border-color-hover - The hover border color
+/// @type map
+$button-colors: (
+    primary: (
+        background: color(blue),
+        color: #FFF,
+        border-color: #000,
+        hover: (
+            background-hover: color(blue, light),
+            border-color-hover: #FFF
+        )
+    ),
+    secondary: (
+        background: color(gray),
+        color: color(gray, dark),
+        hover: (
+            border-color-hover: color(gray, dark)
+        )
+    )
+);

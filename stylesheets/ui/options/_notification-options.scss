@@ -1,0 +1,120 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE NOTIFICATIONS
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Notification Position
+        Notification Colors
+ */
+
+////
+/// @group notifications
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE NOTIFICATIONS
+\*------------------------------------*/
+
+/// Turn on/off notifications for your application.
+/// @type boolean
+$use-notifications:                 false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/// Set the notification width.
+/// @type number
+$notification-width:                315px;
+
+/// Set the notificaiton font size.
+/// @type number
+$notification-font-size:            .8rem;
+
+/// Set notification padding.
+/// @type number
+$notification-padding:              7px 15px;
+
+/// Set the notification close color.
+/// @type color
+$notification-close-color:          #FFF;
+
+/// Set the notification close hover color.
+/// @type color
+$notification-close-color-hover:    #000;
+
+/// Set the space the notificatino will appear from the edge of the browser.
+/// @type number
+$notification-space-from-edge:      20px;
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Notification Position
+ */
+
+/// Turn on/off notifications in the bottom right.
+/// @type boolean
+$notification-bottom-right:         false;
+
+/// Turn on/off notifications in the bottom left.
+/// @type boolean
+$notification-bottom-left:          false;
+
+/// Turn on/off notifications in the top right.
+/// @type boolean
+$notification-top-right:            false;
+
+/// Turn on/off notifications in the top left.
+/// @type boolean
+$notification-top-left:             false;
+
+/**
+ * ^Notification Colors
+ */
+
+/// Set the names and colors of your notifications.
+/// @prop {map} map - Notification name
+/// @prop {string} key [background] - Background key
+/// @prop {color} value - Background value
+/// @prop {string} key [color] - Color key
+/// @prop {color} value - Color value
+/// @prop {string} key [title-bar-background] - Title bar background key
+/// @prop {color} value - Title bar background color value
+/// @prop {string} key [title-bar-color] - Title bar color key
+/// @prop {color} value - Title bar color value
+/// @type map
+$notification-colors: (
+    success: (
+        background: #008000,
+        color: #FFF,
+        title-bar-background: #006400,
+        title-bar-color: #FFF
+    ),
+    warning: (
+        background: #00F,
+        color: #FFF,
+        title-bar-background: #8B0000,
+        title-bar-color: #FFF
+    ),
+    info: (
+        background: #00F,
+        color: #FFF,
+        title-bar-background: #00008B,
+        title-bar-color: #FFF
+    )
+);

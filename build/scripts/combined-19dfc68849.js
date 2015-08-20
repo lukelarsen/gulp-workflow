@@ -1,0 +1,1 @@
+var secondTest="In the console";console.log(secondTest);var testing="This is a test.";alert(testing);

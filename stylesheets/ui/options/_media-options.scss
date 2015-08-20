@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE MEDIA
+ *  MODIFIER VARIABLES
+ */
+
+////
+/// @group media
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE MEDIA
+\*------------------------------------*/
+
+/// Turn on/off the media object for your application.
+/// @type boolean
+$use-media:                         false;
+
+
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/// Turn on/off the ability to have the media object scroll.
+/// If true the class that will be generated for use is .media--scroll
+/// @type boolean
+$media--scroll:                     false;
+
+/// Turn on/off the Viemo player. This will style Viemo players to look better.
+/// If true the class you can use is .media--vimeo.
+/// @type boolean
+$media--vimeo:                      false;
+
+/// Turn on/off the Instagram player. This will help Instram players look better.
+/// If true the class you can use is .media--instagram.
+/// @type boolean
+$media--instagram:                  false;
+
+/// Turn on/off the Vine player. This will help Vine players look better.
+/// If true the class you can use is .media--vine.
+/// @type boolean
+$media--vine:                       false;

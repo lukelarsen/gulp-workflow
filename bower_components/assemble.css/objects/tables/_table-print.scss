@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  TABLE CELL WIDTHS
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !TABLE CELL WIDTHS
+\*------------------------------------*/
+
+/// Get all the table cell widths that will be used.
+/// @group tables
+/// @access private
+/// @param {map} $table-cell-width
+@mixin table-width($table-cell-widths){
+    @each $value in $table-cell-widths{
+        .t#{$value}{
+            width: percentage($value / 100);
+        }
+    }
+}

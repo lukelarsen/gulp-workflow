@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE ARROWS
+ *  DESIGN VARIABLES
+ */
+
+////
+/// @group arrows
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE ARROWS
+\*------------------------------------*/
+
+/// Turn on/off arrows for your application
+/// @type boolean
+$use-arrows:                        true;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/// How big should the arrow be.
+/// @type number
+$arrow-size:                        10px;
+
+/// How big should the arrow border be.
+/// @type number
+$arrow-border:                      1;
+
+/// How big should the border be.
+/// @type number
+$border:                            $arrow-size;
+
+/// Used when building the arrow. You don't need to set this.
+/// @access private
+/// @type number
+$arrow:                             $arrow-size - $arrow-border;

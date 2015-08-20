@@ -1,0 +1,147 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE TIPS
+ *  DESIGN VARIABLES
+ *  WIDTH VARIABLES
+ *  TRANSITION VARIABLES
+ *  PLACEMENT OPTIONS
+ */
+
+////
+/// @group tips
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE TIPS
+\*------------------------------------*/
+
+/// Turn on/off tips for your application.
+/// @type boolean
+$use-tips:                          false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/// Set the tip background color.
+/// @type color
+$tip-background-color:              #002;
+
+/// Set the tip text color.
+/// @type color
+$tip-text-color:                    #FFF;
+
+/// Set the tip close background color.
+/// @type color
+$tip-close-background-color:        #666;
+
+/// Set the tip close background hover color.
+/// @type color
+$tip-close-background-hover-color:  #444;
+
+/// Set the tip close text color.
+/// @type color
+$tip-close-text-color:              #FFF;
+
+/// Set the tip close text hover color.
+/// @type color
+$tip-close-text-hover-color:        #FFF;
+
+/// Set the tip padding.
+/// @type number
+$tip-padding:                       8px 10px 5px;
+
+/// Set the tip font size.
+/// @type number
+$tip-font-size:                     12px;
+
+/// Set the tip line height.
+/// @type number
+$tip-line-height:                   15px;
+
+
+
+
+
+/*------------------------------------*\
+    !WIDTH VARIABLES
+\*------------------------------------*/
+
+/// Tuen on/off if tips can have fixed widths.
+/// @type boolean
+$tip-enable-width:                  false;
+
+/// Set the width of tips. Needs $tip-enable-width to be true.
+/// @type number
+$tip-width:                         210px;
+
+
+
+
+
+/*------------------------------------*\
+    !TRANSITION VARIABLES
+\*------------------------------------*/
+
+/// Set what transition on tips should be.
+$tip-transition:                    .3s ease;
+
+
+
+
+
+/*------------------------------------*\
+    !PLACEMENT OPTIONS
+\*------------------------------------*/
+
+/// Turn on/off top tips.
+/// If set to true you can use the class .tip--top. It requires .tip.
+/// @type boolean
+$tip-enable-top:                    true;
+
+/// Set how far from the top the top tips should be.
+/// @type number
+$tip-top-position:                  20px;
+
+
+/// Turn on/off bottom tips.
+/// If set to true you can use the class .tip--bottom. It requires .tip.
+/// @type boolean
+$tip-enable-bottom:                 true;
+
+/// Set how far from the bottom the bottom tips should be.
+/// @type number
+$tip-bottom-position:               20px;
+
+
+// Using right or left will make the notification a fixed width.
+// Width value is set with $tip-width
+
+/// Turn on/off right tips.
+/// If set to true you can use the class .tip--right. It requires .tip.
+/// @type boolean
+$tip-enable-right:                  true;
+
+/// Set how far from the right the right tips should be.
+/// @type number
+$tip-right-position:                -$tip-width - 8;
+
+
+/// Turn on/off left tips.
+/// If set to true you can use the class .tip--left. It requires .tip.
+/// @type boolean
+$tip-enable-left:                   true;
+
+/// Set how far from the left the left tips should be.
+/// @type number
+$tip-left-position:                 -$tip-width - 33;

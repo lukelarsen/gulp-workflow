@@ -1,0 +1,127 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE NAVS
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Orientation
+        Type
+ */
+
+////
+/// @group navs
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE NAVS
+\*------------------------------------*/
+
+/// Turn on/off navs for your application.
+/// @type boolean
+$use-navs:                          false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/// Set pagination padding.
+/// @type number
+$pagination-li-padding:             12px;
+
+/// Set pagination link spacing.
+/// @type number
+$pagination-a-spacing:              12px;
+
+/// Set breadcrumb right margin.
+/// @type number
+$breadcrumb-a-right:                10px;
+
+/// Set breadcrumb left margin
+/// @type number
+$breadcrumb-a-left:                 13px;
+
+
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Orientation
+ */
+
+/// Turn on/off fit navigations in your application.
+/// If set to true you can use the class .nav--fit. It requires .nav.
+/// @type boolean
+$nav--fit:                          false;
+
+/// Turn on/off stacked navigations in your application.
+/// If set to true you can use the class .nav--stacked. It requires .nav.
+/// @type boolean
+$nav--stacked:                      false;
+
+/// Turn on/off center navigations in your application.
+/// If set to true you can use the class .nav--center. It requires .nav.
+/// @type boolean
+$nav--center:                       false;
+
+/// Turn on/off right navigations in your application.
+/// If set to true you can use the class .nav--right. It requires .nav.
+/// @type boolean
+$nav--right:                        false;
+
+/// Turn on/off left navigations in your application.
+/// If set to true you can use the class .nav--left. It requires .nav.
+/// @type boolean
+$nav--left:                         false;
+
+/// Turn on/off space between navigations in your application.
+/// If set to true you can use the class .nav--space-between. It requires .nav.
+/// @type boolean
+$nav--space-between:                false;
+
+/// Turn on/off space around navigations in your application.
+/// If set to true you can use the class .nav--space-around. It requires .nav.
+/// @type boolean
+$nav--space-around:                 false;
+
+
+/**
+ * ^Type
+ */
+
+/// Turn on/off keyword navigations in your application.
+/// If set to true you can use the class .nav--keywords. It requires .nav.
+/// @type boolean
+$nav--keywords:                     false;
+
+/// Turn on/off pagination navigations in your application.
+/// If set to true you can use the class .nav--pagination. It requires .nav.
+/// @type boolean
+$nav--pagination:                   false;
+
+/// Turn on/off breadcrumb navigations in your application.
+/// If set to true you can use the class .nav--breadcrumb. It requires .nav.
+/// @type boolean
+$nav--breadcrumb:                   false;
+
+/// Turn on/off breadcrumb path navigations in your application.
+/// If set to true you can use the class .nav--breadcrumb--path. It requires .nav & .nav--breadcrumb.
+/// @type boolean
+$nav--breadcrumb--path:             false;
+
+/// Turn on/off custom breadcrumb navigations in your application.
+/// If set to true you can use the class .nav--breadcrumb--custom. It requires .nav & .nav--breadcrumb.
+/// @type boolean
+$nav--breadcrumb--custom:           false;

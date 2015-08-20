@@ -1,0 +1,66 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE LIST
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+ */
+
+////
+/// @group lists
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE LIST
+\*------------------------------------*/
+
+/// Turn on/off lists for your application
+/// @type boolean
+$use-list:                          false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/// Set the color for the bullet in colored lists.
+/// @type color
+$list-colored-color:                #F00;
+
+/// Set the top space for the colored bullet in colored lists.
+/// @type number
+$list-colored-top:                  3px;
+
+/// Set the size of the colored bullet in colored lists/
+/// @type number
+$list-colored-size:                 .75em;
+
+/// Set the left padding of the colored bullet in colored lists.
+/// @type number
+$list-colored-padding-left:         40px;
+
+
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/// Turn on/off a class that will remove bullets.
+/// If true a class of .list-no-bullets will be generated.
+/// @type boolean
+$list-no-bullets:                   false;
+
+/// Turn on/off colored lists. This will allow you to color the bullets of a list.
+/// If true the class you can use is .list-colored.
+/// @type boolean
+$list-colored:                      false;

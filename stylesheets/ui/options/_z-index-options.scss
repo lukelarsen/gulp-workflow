@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  Z-INDEX MAP
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !Z-INDEX MAP
+\*------------------------------------*/
+
+/// A clean way to deal with z-index layers in Sass
+/// A map of z layers
+/// All z-index values should be set here
+/// Found in ui/options/_z-index-options.scss -
+/// @group z-index
+/// @prop {number} key - aliases for specific z-indexes
+/// @type map
+/// @link http://css-tricks.com/handling-z-index/
+$z-layers: (
+    'modal-close':                  2,
+    'modal-inner-visible':          100,
+    'modal-inner':                  -1,
+    'modal':                        99,
+    'notification-wrapper':         30,
+    'tip':                          20,
+);

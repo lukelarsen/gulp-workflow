@@ -1,0 +1,240 @@
+@if $use-navs == true{
+    /*------------------------------------*\
+        CONTENTS
+    \*------------------------------------*/
+    /**
+     *  NAV BASE
+     *  NAV MODIFIERS
+            Nav Fit
+            Nav Stacked
+            Nav Center
+            Nav Right
+            Nav Left
+            Nav Space Between
+            Nav Space Around
+     *  NAV TYPES
+            Pagination
+            Breadcrumb Path
+            Breadcrumb Custom
+     */
+
+    /**
+     *  Credit goes to inuit.css by @csswizardry
+     */
+
+
+
+
+
+    /*------------------------------------*\
+        !NAV BASE
+    \*------------------------------------*/
+
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        > li{
+            flex: 0 1 auto;
+
+            > a{
+                display: inline-block;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+
+
+
+    /*------------------------------------*\
+        !NAV MODIFIERS
+    \*------------------------------------*/
+
+    /**
+     * ^Nav Fit
+     */
+    @if $nav--fit == true{
+        .nav--fit{
+            > li{
+                flex: 1 1 auto;
+            }
+        }
+    }
+
+
+    /**
+     * ^Nav Stacked
+     */
+    @if $nav--stacked == true{
+        .nav--stacked{
+            flex-direction: column;
+        }
+    }
+
+
+    /**
+     * ^Nav Center
+     */
+    @if $nav--center == true{
+        .nav--center{
+            justify-content: center;
+        }
+    }
+
+
+    /**
+     * ^Nav Right
+     */
+    @if $nav--right == true{
+        .nav--right{
+            justify-content: flex-end;
+        }
+    }
+
+
+    /**
+     * ^Nav Left
+     */
+    @if $nav--left == true{
+        .nav--left{
+            justify-content: flex-start;
+        }
+    }
+
+
+    /**
+     * ^Nav Space Between
+     */
+    @if $nav--space-between == true{
+        .nav--space-between{
+            justify-content: space-between;
+        }
+    }
+
+
+    /**
+     * ^Nav Space Around
+     */
+    @if $nav--space-around == true{
+        .nav--space-around{
+            justify-content: space-around;
+        }
+    }
+
+
+
+
+
+    /*------------------------------------*\
+        !NAV TYPES
+    \*------------------------------------*/
+
+    /**
+     * ^Nav Keywords
+     * Credit: Inuit.css
+     */
+    @if $nav--keywords == true{
+        .nav--keywords{
+            > li{
+                margin-left: 7px;
+
+                &:after{
+                    content: ', ';
+                }
+
+                &:last-child:after{
+                    display: none;
+                }
+
+                a{
+                    display: inline-block;
+
+                }
+
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+
+    /**
+     * ^Nav Pagination
+     * Credit: Inuit.css
+     */
+    @if $nav--pagination == true{
+        .nav--pagination{
+            text-align: center;
+
+            > li{
+                padding: $pagination-li-padding;
+
+                > a{
+                    display: block;
+                    margin: -$pagination-a-spacing;
+                    padding: $pagination-a-spacing;
+                }
+            }
+
+            > .nav--pagination__first a:before{
+                content: '« ';
+            }
+
+            > .nav--pagination__last a:after{
+                content: ' »';
+            }
+        }
+    }
+
+
+    /**
+     * ^Nav Breadcrumb
+     * Credit: Inuit.css
+     */
+    @if $nav--breadcrumb == true{
+        .nav--breadcrumb{
+            > li + li:before{
+                float: left;
+                content: '» ';
+            }
+
+            > li{
+                > a{
+                    margin-right: $breadcrumb-a-right;
+                    margin-left: $breadcrumb-a-left;
+                }
+            }
+        }
+    }
+
+
+    /**
+     * ^Nav Breadcrumb Path
+     * Credit: Inuit.css
+     */
+    @if $nav--breadcrumb--path == true{
+        .nav--breadcrumb--path > li + li:before{
+            content: '/ ';
+        }
+    }
+
+
+    /**
+     * ^Nav Breadcrumb Custom
+     * Credit: Inuit.css
+     */
+    @if $nav--breadcrumb--custom == true{
+        .nav--breadcrumb--custom{
+            > li + li[data-breadcrumb]:before{
+                float: left;
+                content: attr(data-breadcrumb) ' ';
+            }
+        }
+    }
+}

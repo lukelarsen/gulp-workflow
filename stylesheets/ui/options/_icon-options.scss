@@ -1,0 +1,63 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  REQUIREMENTS
+ *  USE ICONS
+ *  DESIGN VARIABLES
+ */
+
+////
+/// @group icons
+////
+
+
+
+
+
+/*------------------------------------*\
+    !REQUIREMENTS
+\*------------------------------------*/
+
+// Iconic is used for icons. You will need to
+// download your own version of Iconic and use
+// the library as they direct. Then these
+// styles will be of use.
+// See useiconic.com
+
+
+
+
+/*------------------------------------*\
+    !USE ICONS
+\*------------------------------------*/
+
+/// Turn on/off icons for your application
+/// @type boolean
+$use-icons:                         false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/// Default icon size.
+/// Be sure to use em so the icon can scale to the size it needs.
+/// @type number
+$icon-default-size:                 .8em;
+
+/// Default icon color.
+/// @type color
+$icon-default-color:                #000;
+
+/// When an icon is used in a h1 - h6 set the vertical alignment.
+/// @type number
+$icon-header-vertical-align:        -.05em;
+
+/// Set the size of the close icon.
+/// Be sure to use em so the icon can scale to the size it needs.
+/// @type number
+$icon-close-notification-size:      1em;

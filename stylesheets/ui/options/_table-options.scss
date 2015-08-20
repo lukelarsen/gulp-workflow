@@ -1,0 +1,159 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+*  USE TABLES
+*  DESIGN VARIABLES
+        Spacing
+        Background Color
+        Borders
+ *  MODIFIER VARIABLES
+        Borders
+        Stripes
+        Numerical
+        Responsive
+ *  CELL WIDTHS
+*/
+
+////
+/// @group tables
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE TABLES
+\*------------------------------------*/
+
+/// Turn on/off tables for your application.
+/// @type boolean
+$use-tables:                        false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Spacing
+ */
+
+/// Set table padding.
+/// @type number
+$table-padding:                     .5em;
+
+/// Set table padding for palm sizes.
+/// @type number
+$table-padding-palm:                $table-padding / 2;
+
+
+/**
+ * ^Background Color
+ */
+
+/// Set table stripe background color
+/// @type color
+$table-stripe-background-color:     #EEE;
+
+/// Set table row hover color.
+/// @type color
+$table-row-hover-color:             #DDD;
+
+
+/**
+ * ^Borders
+ */
+
+/// Set table border color.
+/// @type color
+$table-border-color:                #999;
+
+/// Set table border size.
+/// @type number
+$table-border-size:                 1px;
+
+
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Borders
+ */
+
+/// Turn on/off table borders for your application.
+/// If set to true you can use the class .table--bordered.
+/// @type boolean
+$table--bordered:                   false;
+
+/// Turn on/off tables with outside borders for your application.
+/// If set to true you can use the class .table--outer-bordered.
+/// @type boolean
+$table--outer-bordered:             false;
+
+
+/**
+ * ^Stripes
+ */
+
+/// Turn on/off striped tables for your application.
+/// If set to true you can use the class .table--striped.
+/// @type boolean
+$table--striped:                    false;
+
+
+/**
+ * ^Numerical
+ */
+
+/// Turn on/off numeric tables for your application.
+/// If set to true you can use the class .table--numerical.
+/// @type boolean
+$table-numerical:                   false;
+
+
+/**
+ * ^Responsive
+ */
+
+/// Turn on/off responsive tables for your application.
+/// If set to true you can use the class .nav--responsive.
+/// @type boolean
+$table--responsive:                 false;
+
+
+/**
+ * ^Row Hover
+ */
+
+/// Turn on/off tables with row hovers for your application.
+/// If set to true you can use the class .table--row-hover.
+/// @type boolean
+$table--row-hover:                  false;
+
+
+
+
+
+/*------------------------------------*\
+    !CELL WIDTHS
+\*------------------------------------*/
+
+/// Enter a comma separated list of numbers.
+/// It will generate classes like:
+/// .t10{ width: 10%; }
+/// for you to use in tables
+/// @type map
+$table-cell-widths: (
+    5,
+    10,
+    15
+);

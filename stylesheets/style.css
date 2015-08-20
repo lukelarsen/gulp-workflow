@@ -1,0 +1,2320 @@
+@charset "UTF-8";
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  IMPORT RETURN FUNCTIONS
+ *  IMPORT OPTIONS
+ *  IMPORT ASSEMBLE.CSS
+ *  UI
+ */
+
+/*------------------------------------*    !IMPORT RETURN FUNCTIONS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  RETURN COLORS
+ */
+
+/*------------------------------------*    !RETURN COLORS
+\*------------------------------------*/
+
+/*------------------------------------*    !IMPORT OPTIONS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  RESPONSIVE SETTINGS
+ *  RESPONSIVE MIXIN
+ */
+
+/*------------------------------------*    !RESPONSIVE SETTINGS
+\*------------------------------------*/
+
+/**
+ * Set where breakpoints start.
+ */
+
+/**
+ * This list will make silent classes like %palm--full or %palm--grid-halves render
+ * for you to extend. Your options are 'palm', 'lap', 'portable', 'desk', 'wide'.
+ * If $use-silent-classes is set to false it will make regular classes instead of
+ * silent classes.
+ */
+
+/*------------------------------------*    !RESPONSIVE MIXIN
+\*------------------------------------*/
+
+/**
+ * Credit: Inuit.css
+ */
+
+/**
+ * Media query mixin.
+ *
+ * It’s not great practice to define solid breakpoints up-front, preferring to
+ * modify your design when it needs it, rather than assuming you’ll want a
+ * change at ‘mobile’. However, as inuit.css/assemble.css is required to take a hands off
+ * approach to design decisions, this is the closest we can get to baked-in
+ * responsiveness. It’s flexible enough to allow you to set your own breakpoints
+ * but solid enough to be frameworkified.
+ *
+ * We define some broad breakpoints in our vars file that are picked up here
+ * for use in a simple media query mixin. Our options are:
+ *
+ * palm
+ * lap
+ * portable
+ * desk
+ * wide
+ *
+ * Not using a media query will, naturally, serve styles to all devices.
+ *
+ * `@include media-query(palm){ [styles here] }`
+ *
+ * We work out your end points for you:
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  SCROLLBARS
+ */
+
+/*------------------------------------*    !SCROLLBARS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  COLOR PALETTE
+ */
+
+/*------------------------------------*    !COLOR PALETTE
+\*------------------------------------*/
+
+/**
+ *  ^Get color example
+ *  color(blue, dark); --returns--> #1b3c64
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE ARROWS
+ *  DESIGN VARIABLES
+ */
+
+/*------------------------------------*    !USE ARROWS
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE BUTTONS
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Button Sizes
+        Button Types
+        Button Colors
+ */
+
+/*------------------------------------*    !USE BUTTONS
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Button Sizes
+ */
+
+/**
+ * ^Button Types
+ */
+
+/**
+ * ^Button Colors
+
+ *      You may use color(blue, dark) to choose colors.
+ *      See ui/options/_color-options.scss for the color map.
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE CODE
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+ */
+
+/*------------------------------------*    !USE CODE
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE FORM
+ *  DESIGN VARIABLES
+        Push Bottom
+        Form Border Styles
+        Error Styles
+        Sizing
+        Webkit Appearance
+        Errors
+        Disabled
+        Focus
+    MODIFIER VARIABLES
+ */
+
+/*------------------------------------*    !USE FORM
+\*------------------------------------*/
+
+/**
+ *  ^Using forms requires $use-grid to be true
+ *   That variable can be set in _grid-options.scss
+ */
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Push Bottom
+ */
+
+/**
+ * ^Form Border Styles
+ */
+
+/**
+ * ^Sizing
+ */
+
+/**
+ * ^Icons
+ */
+
+/**
+ * ^Webkit Appearance
+ */
+
+/**
+ * ^Errors
+ */
+
+/**
+ * ^Disabled
+ */
+
+/**
+ * ^Focus
+ */
+
+/*------------------------------------*    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE GRIDS
+ *  FIXED WIDTH VALUES
+        Grid Fixed Widths
+        Grid Item Fixed Widths
+ */
+
+/*------------------------------------*    !USE GRIDS
+\*------------------------------------*/
+
+/*------------------------------------*    !FIXED WITH VALUES
+\*------------------------------------*/
+
+/**
+ * ^Grid Center Widths
+ * Set the widths you need in your layout here.
+ * These are px values.
+ * It will return extends or classes like this: %grid--fixed-200
+ * The resulting css will be:
+ * max-width: XXXpx;
+ * margin: 0 auto;
+ */
+
+/**
+ * ^Grid Item Fixed Widths
+ * Set the widths you need in your layout here.
+ * These are px values.
+ * It will return extends or classes like this: %grid__item--fixed-200
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  REQUIREMENTS
+ *  USE ICONS
+ *  DESIGN VARIABLES
+ */
+
+/*------------------------------------*    !REQUIREMENTS
+\*------------------------------------*/
+
+/*------------------------------------*    !USE ICONS
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE LIST
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+ */
+
+/*------------------------------------*    !USE LIST
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE MEDIA
+ *  MODIFIER VARIABLES
+ */
+
+/*------------------------------------*    !USE MEDIA
+\*------------------------------------*/
+
+/*------------------------------------*    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE MODALS
+ *  DESIGN VARIABLES
+        Overlay
+        Modal Inner
+        Modal Close
+ *  MODAL FIXED WIDTHS
+ */
+
+/*------------------------------------*    !USE MODALS
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Overlay
+ */
+
+/**
+ * ^Modal Inner
+ */
+
+/**
+ * ^Modal Close
+ */
+
+/*------------------------------------*    !MODAL FIXED WIDTHS
+\*------------------------------------*/
+
+/**
+ * Set the widths you need in your layout here.
+ * These are px values.
+ * It will return classes like this:
+ * .modal__block-600{
+ *     max-width: 600px;
+ * }
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE NAVS
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Orientation
+        Type
+ */
+
+/*------------------------------------*    !USE NAVS
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Orientation
+ */
+
+/**
+ * ^Type
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE NOTIFICATIONS
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+        Notification Position
+        Notification Colors
+ */
+
+/*------------------------------------*    !USE NOTIFICATIONS
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Notification Position
+ */
+
+/**
+ * ^Notification Colors
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+*  USE TABLES
+*  DESIGN VARIABLES
+        Spacing
+        Background Color
+        Borders
+ *  MODIFIER VARIABLES
+        Borders
+        Stripes
+        Numerical
+        Responsive
+ *  CELL WIDTHS
+*/
+
+/*------------------------------------*    !USE TABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Spacing
+ */
+
+/**
+ * ^Background Color
+ */
+
+/**
+ * ^Borders
+ */
+
+/*------------------------------------*    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Borders
+ */
+
+/**
+ * ^Stripes
+ */
+
+/**
+ * ^Numerical
+ */
+
+/**
+ * ^Responsive
+ */
+
+/**
+ * ^Row Hover
+ */
+
+/*------------------------------------*    !CELL WIDTHS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE TIPS
+ *  DESIGN VARIABLES
+ *  WIDTH VARIABLES
+ *  TRANSITION VARIABLES
+ *  PLACEMENT OPTIONS
+ */
+
+/*------------------------------------*    !USE TIPS
+\*------------------------------------*/
+
+/*------------------------------------*    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !WIDTH VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !TRANSITION VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !PLACEMENT OPTIONS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USE TYPE
+ *  VARIABLES
+ *      Custom Fonts
+ *      Font Vars
+ */
+
+/*------------------------------------*    !USE TYPE
+\*------------------------------------*/
+
+/*------------------------------------*    !VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Custom Fonts
+ */
+
+/**
+ * ^Font Vars
+ *      These are used so you can use assign fonts to elements in your project
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  Z-INDEX MAP
+ */
+
+/*------------------------------------*    !Z-INDEX MAP
+\*------------------------------------*/
+
+/*------------------------------------*    !IMPORT ASSEMBLE.CSS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  GENERAL
+ *  GRIDS
+ *  ARROWS
+ *  BUTTONS
+ *  CODE
+ *  FORMS
+ *  ICONS
+ *  LISTS
+ *  MEDIA
+ *  MODALS
+ *  NAVS
+ *  TABLES
+ *  TIPS
+ *  TYPE
+ */
+
+/*------------------------------------*    !GENERAL
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  BACKGROUND IMAGES
+ *  SIZING
+ *  Z-INDEX
+ *  POSITION MIXIN
+ *      Examples
+ *      Position Mixin
+ *      Checking Function
+ *      Shorthands
+*/
+
+/*------------------------------------*    !BACKGROUND IMAGES
+\*------------------------------------*/
+
+/*------------------------------------*    !SIZING
+\*------------------------------------*/
+
+/*------------------------------------*    !Z-INDEX FUNCTION
+\*------------------------------------*/
+
+/*------------------------------------*    !POSITION MIXIN
+\*------------------------------------*/
+
+/**
+ * ^Examples
+ */
+
+/**
+.a {
+    @include absolute();
+}
+
+.b {
+    @include absolute(top);
+}
+
+.f {
+    @include absolute(top right 1em);
+}
+
+.g {
+    @include absolute(top 1em right);
+}
+
+.h {
+    @include absolute(top 1em right 100%);
+}
+
+.j {
+    @include absolute(top 1em right 1em bottom 1em left 1em)
+}
+*/
+
+/**
+ * ^Position Mixin
+ */
+
+/**
+ * ^Checking Function
+ */
+
+/**
+ * ^Shorthands
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  RESET
+ *  NORMALIZE.CSS
+*/
+
+/**
+ * Credit goes to inuit.css by @csswizardry
+ * & Normalize.css
+ */
+
+/*------------------------------------*    !RESET
+\*------------------------------------*/
+
+/**
+ * A more considered reset; more of a restart...
+ * As per: csswizardry.com/2011/10/reset-restarted
+ */
+
+/**
+* Let’s make the box model all nice, shall we...?
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/**
+ * The usual...
+ */
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Give a help cursor to elements that give extra info on `:hover`.
+ */
+
+/**
+ * Remove underlines from potentially troublesome elements.
+ */
+
+/**
+ * Apply faux underline via `border-bottom`.
+ */
+
+/**
+ * So that `alt` text is visually offset if images don’t load.
+ */
+
+/**
+ * Give form elements some cursor interactions...
+ */
+
+/*------------------------------------*    !NORMALIZE.CSS
+\*------------------------------------*/
+
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Correct `block` display not defined in IE 8/9.
+ */
+
+/*
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+
+/*
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+/*
+ * Address styling not present in IE 8/9.
+ */
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a,
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+/*
+ * Address styling not present in Safari 5 and Chrome.
+ */
+
+/*
+ * Address differences between Firefox and other browsers.
+ */
+
+/*
+ * Address styling not present in IE 8/9.
+ */
+
+/*
+ * Improve readability of pre-formatted text in all browsers.
+ */
+
+/*
+ * Set consistent quote types.
+ */
+
+/*
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * Remove border when inside `a` element in IE 8/9.
+ */
+
+/*
+ * Correct overflow displayed oddly in IE 9.
+ */
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+/*
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+/*
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+
+/*
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+/*
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+/*
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+
+/*
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+/*
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+/*
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/*
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+/*------------------------------------*    $INTERNAL SCROLLBARS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  CLEARFIX
+ *  SHOW / HIDE
+ */
+
+/*------------------------------------*    !CLEARFIX
+\*------------------------------------*/
+
+/**
+ * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
+ * and over in your markup.
+ */
+
+/*------------------------------------*    !SHOW / HIDE
+\*------------------------------------*/
+
+/*------------------------------------*    !GRIDS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  GRID RESPONSIVE WIDTH MIXIN
+        Width Whole
+        Width Half
+        Width Third
+        Width Quarter
+        Width Fifth
+ *  GRID RESPONSIVE GUTTER MIXIN
+        Gutter Small
+        Gutter Medium
+        Gutter Large
+        Gutter xLarge
+ *  GENERATE THE SILENT CLASSES
+        Generate our fixed width extends (or classes)
+        Generate our responsive extends (or classes)
+*/
+
+/**
+ *  Highly influenced by inuit.css from @csswizardry
+ *  & Solved By Flexbox - Grids by @philwalton
+ */
+
+/*------------------------------------*    !GRID RESPONSIVE WIDTH MIXIN
+\*------------------------------------*/
+
+/**
+ * Enclose a block of code with a media query as named in `$breakpoints`.
+ */
+
+/**
+ * Create our width & gutter extends (or classes), prefixed by the specified namespace.
+ */
+
+/*------------------------------------*    !GENERATE THE SILENT CLASSES
+\*------------------------------------*/
+
+/**
+ * ^Generate our center grid extends (or classes)
+ */
+
+/**
+ * ^Generate our fixed width grid__item extends (or classes)
+ */
+
+/**
+ * ^Generate our responsive extends (or classes)
+ */
+
+@media only screen and (max-width: 480px) {
+  /**
+     * ^Width Whole
+     */
+
+  /**
+     * ^Width Half
+     */
+
+  /**
+     * ^Width Third
+     */
+
+  /**
+     * ^Width Quarter
+     */
+
+  /**
+     * ^Width Fifth
+     */
+
+  /*------------------------------------*        !GRID RESPONSIVE GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * ^Gutter Small
+     */
+
+  /**
+     * ^Gutter Medium
+     */
+
+  /**
+     * ^Gutter Large
+     */
+
+  /**
+     * ^Gutter xLarge
+     */
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  /**
+     * ^Width Whole
+     */
+
+  /**
+     * ^Width Half
+     */
+
+  /**
+     * ^Width Third
+     */
+
+  /**
+     * ^Width Quarter
+     */
+
+  /**
+     * ^Width Fifth
+     */
+
+  /*------------------------------------*        !GRID RESPONSIVE GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * ^Gutter Small
+     */
+
+  /**
+     * ^Gutter Medium
+     */
+
+  /**
+     * ^Gutter Large
+     */
+
+  /**
+     * ^Gutter xLarge
+     */
+}
+
+@media only screen and (max-width: 1023px) {
+  /**
+     * ^Width Whole
+     */
+
+  /**
+     * ^Width Half
+     */
+
+  /**
+     * ^Width Third
+     */
+
+  /**
+     * ^Width Quarter
+     */
+
+  /**
+     * ^Width Fifth
+     */
+
+  /*------------------------------------*        !GRID RESPONSIVE GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * ^Gutter Small
+     */
+
+  /**
+     * ^Gutter Medium
+     */
+
+  /**
+     * ^Gutter Large
+     */
+
+  /**
+     * ^Gutter xLarge
+     */
+}
+
+@media only screen and (max-width: 1024px) {
+  /**
+     * ^Width Whole
+     */
+
+  /**
+     * ^Width Half
+     */
+
+  /**
+     * ^Width Third
+     */
+
+  /**
+     * ^Width Quarter
+     */
+
+  /**
+     * ^Width Fifth
+     */
+
+  /*------------------------------------*        !GRID RESPONSIVE GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * ^Gutter Small
+     */
+
+  /**
+     * ^Gutter Medium
+     */
+
+  /**
+     * ^Gutter Large
+     */
+
+  /**
+     * ^Gutter xLarge
+     */
+}
+
+@media only screen and (min-width: 1500px) {
+  /**
+     * ^Width Whole
+     */
+
+  /**
+     * ^Width Half
+     */
+
+  /**
+     * ^Width Third
+     */
+
+  /**
+     * ^Width Quarter
+     */
+
+  /**
+     * ^Width Fifth
+     */
+
+  /*------------------------------------*        !GRID RESPONSIVE GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * ^Gutter Small
+     */
+
+  /**
+     * ^Gutter Medium
+     */
+
+  /**
+     * ^Gutter Large
+     */
+
+  /**
+     * ^Gutter xLarge
+     */
+}
+
+/*------------------------------------*    !ARROWS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  ARROWS
+ */
+
+/*------------------------------------*    !ARROWS
+\*------------------------------------*/
+
+/*------------------------------------*        CONTENTS
+    \*------------------------------------*/
+
+/**
+     *  ARROWS EXTENDS
+     */
+
+/*------------------------------------*        !ARROWS EXTENDS
+    \*------------------------------------*/
+
+/*------------------------------------*    !BUTTONS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  PRINT BUTTON COLORS
+ */
+
+/*------------------------------------*    !PRINT BUTTON COLORS
+\*------------------------------------*/
+
+/*------------------------------------*    !CODE
+\*------------------------------------*/
+
+/*------------------------------------*    !FORMS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  FORM RESPONSIVE MIXIN
+        Forms One Col
+        Forms Two Cols
+        Forms Three Cols
+        Forms Four Cols
+        Forms Five Cols
+ *  FORMS RESPONSIVE GUTTER MIXIN
+        Forms Gutter Small
+        Forms Gutter Medium
+        Forms Gutter Large
+        Forms Gutter xLarge
+ *  GENERATE THE SILENT CLASSES
+*/
+
+/**
+ *  Highly influenced by inuit.css from @csswizardry
+ *  & Solved By Flexbox - Grids by @philwalton
+ */
+
+/*------------------------------------*    !FORM RESPONSIVE MIXIN
+\*------------------------------------*/
+
+/*------------------------------------*    !GENERATE THE SILENT CLASSES
+\*------------------------------------*/
+
+/**
+ * Generate our responsive extends (or classes)
+ */
+
+@media only screen and (max-width: 480px) {
+  /**
+     * ^Forms One Col
+     */
+
+  /**
+     * ^Form Two Cols
+     */
+
+  /**
+     * ^Form Three Cols
+     */
+
+  /**
+     * ^Forms Four Cols
+     */
+
+  /**
+     * ^Forms Five Cols
+     */
+
+  /*------------------------------------*        !RESPONSIVE FORMS GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * Forms Gutter Small
+     */
+
+  /**
+     * There is no extend for Forms Gutter Small because it is
+     * the default. Just don't extend any form gutters to get
+     * it's size.
+     */
+
+  /**
+     * Forms Gutter Medium
+     */
+
+  /**
+     * Forms Gutter Large
+     */
+
+  /**
+     * Forms Gutter xLarge
+     */
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  /**
+     * ^Forms One Col
+     */
+
+  /**
+     * ^Form Two Cols
+     */
+
+  /**
+     * ^Form Three Cols
+     */
+
+  /**
+     * ^Forms Four Cols
+     */
+
+  /**
+     * ^Forms Five Cols
+     */
+
+  /*------------------------------------*        !RESPONSIVE FORMS GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * Forms Gutter Small
+     */
+
+  /**
+     * There is no extend for Forms Gutter Small because it is
+     * the default. Just don't extend any form gutters to get
+     * it's size.
+     */
+
+  /**
+     * Forms Gutter Medium
+     */
+
+  /**
+     * Forms Gutter Large
+     */
+
+  /**
+     * Forms Gutter xLarge
+     */
+}
+
+@media only screen and (max-width: 1023px) {
+  /**
+     * ^Forms One Col
+     */
+
+  /**
+     * ^Form Two Cols
+     */
+
+  /**
+     * ^Form Three Cols
+     */
+
+  /**
+     * ^Forms Four Cols
+     */
+
+  /**
+     * ^Forms Five Cols
+     */
+
+  /*------------------------------------*        !RESPONSIVE FORMS GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * Forms Gutter Small
+     */
+
+  /**
+     * There is no extend for Forms Gutter Small because it is
+     * the default. Just don't extend any form gutters to get
+     * it's size.
+     */
+
+  /**
+     * Forms Gutter Medium
+     */
+
+  /**
+     * Forms Gutter Large
+     */
+
+  /**
+     * Forms Gutter xLarge
+     */
+}
+
+@media only screen and (max-width: 1024px) {
+  /**
+     * ^Forms One Col
+     */
+
+  /**
+     * ^Form Two Cols
+     */
+
+  /**
+     * ^Form Three Cols
+     */
+
+  /**
+     * ^Forms Four Cols
+     */
+
+  /**
+     * ^Forms Five Cols
+     */
+
+  /*------------------------------------*        !RESPONSIVE FORMS GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * Forms Gutter Small
+     */
+
+  /**
+     * There is no extend for Forms Gutter Small because it is
+     * the default. Just don't extend any form gutters to get
+     * it's size.
+     */
+
+  /**
+     * Forms Gutter Medium
+     */
+
+  /**
+     * Forms Gutter Large
+     */
+
+  /**
+     * Forms Gutter xLarge
+     */
+}
+
+@media only screen and (min-width: 1500px) {
+  /**
+     * ^Forms One Col
+     */
+
+  /**
+     * ^Form Two Cols
+     */
+
+  /**
+     * ^Form Three Cols
+     */
+
+  /**
+     * ^Forms Four Cols
+     */
+
+  /**
+     * ^Forms Five Cols
+     */
+
+  /*------------------------------------*        !RESPONSIVE FORMS GUTTER MIXIN
+    \*------------------------------------*/
+
+  /**
+     * Forms Gutter Small
+     */
+
+  /**
+     * There is no extend for Forms Gutter Small because it is
+     * the default. Just don't extend any form gutters to get
+     * it's size.
+     */
+
+  /**
+     * Forms Gutter Medium
+     */
+
+  /**
+     * Forms Gutter Large
+     */
+
+  /**
+     * Forms Gutter xLarge
+     */
+}
+
+/*------------------------------------*    !ICONS
+\*------------------------------------*/
+
+/*------------------------------------*    !LISTS
+\*------------------------------------*/
+
+/*------------------------------------*    !MEDIA
+\*------------------------------------*/
+
+/*------------------------------------*    !MODALS
+\*------------------------------------*/
+
+/*------------------------------------* *
+    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  PRINT MODAL FIXED WIDTHS
+ */
+
+/*------------------------------------*    !PRINT MODAL FIXED WIDTHS
+\*------------------------------------*/
+
+/*------------------------------------*    !NAVS
+\*------------------------------------*/
+
+/*------------------------------------*    !NOTIFICATIONS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  PRINT NOTIFICATION COLORS
+ */
+
+/*------------------------------------*    !PRINT NOTIFICATION COLORS
+\*------------------------------------*/
+
+/*------------------------------------*    !TABLES
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  TABLE CELL WIDTHS
+ */
+
+/*------------------------------------*    !TABLE CELL WIDTHS
+\*------------------------------------*/
+
+/*------------------------------------*    !TIPS
+\*------------------------------------*/
+
+/*------------------------------------*    !TYPE
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  PRINT CUSTOM FONTS
+ */
+
+/*------------------------------------*    !PRINT CUSTOM FONTS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  INTERNAL VARIABLES
+ *  HELPER FUNCTIONS
+ *  MIXINS
+ */
+
+/*------------------------------------*    !INTERNAL VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*    !HELPER FUNCTIONS
+\*------------------------------------*/
+
+/*------------------------------------*    !MIXINS
+\*------------------------------------*/
+
+/*------------------------------------*    !UI
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+        Example
+ *  GRIDS
+*/
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   1. Keep the 'g-' but 'main' can be renamed to be whatever you want.
+   2. Keep the 'gc-' but 'content' can be renamed to be whatever you want.
+   3. Keep the 'gc-' but 'sidebar' can be renamed to be whatever you want.
+
+   <div class="g-main"> <!-- 1. -->
+       <div class="gc-content"> <!-- 2. -->
+           <div class="block">
+               <h2>Content</h2>
+               <p>Content here</p>
+           </div>
+       </div>
+       <div class="gc-sidebar"> <!-- 3. -->
+           <div class="block">
+               <h4>Sidebar Content</h4>
+               <p>Sidebar content would go here</p>
+           </div>
+       </div>
+   </div>
+ */
+
+/**
+ * ^Class Options
+
+ * Apply on .g-*
+ * Block:       %grid
+   Modifiers:   %grid--flex-cells (This will make cells the same height.)
+
+                %grid--fit
+                %grid--full
+                %grid--halves
+                %grid--thirds
+                %grid--quarters
+                %grid--fifths
+
+                (You can replace 'palm' with: lap, portable, desk, or wide.)
+                %grid--palm-full
+                %grid--palm-halves
+                %grid--palm-thirds
+                %grid--palm-quarters
+                %grid--palm-fifths
+
+                %gutters-small
+                %gutters-medium
+                %gutters-large
+                %gutters-xlarge
+
+                (You can replace 'palm' with: lap, portable, desk, or wide.)
+                %gutters--palm-small
+                %gutters--palm-medium
+                %gutters--palm-large
+                %gutters--palm--xlarge
+
+                %grid--top
+                %grid--bottom
+                %grid--center
+
+
+ * Apply on .gc-*
+ * Element:     %grid__item
+   Modifiers:   %grid__item--full
+                %grid__item--half
+                %grid__item--third
+                %grid__item--quarter
+                %grid__item--fifth
+
+                (You can replace 'palm' with: lap, portable, desk, or wide.)
+                %grid__item--palm-full
+                %grid__item--lap-full
+                %grid__item--portable-full
+                %grid__item--desk-full
+                %grid__item--wide-full
+
+                %grid__item--top
+                %grid__item--bottom
+                %grid__item--center
+ */
+
+/**
+ * ^Example
+
+   .g-main{
+        @extend %grid;
+        @extend %grid--flex-cells;
+        @extend %grid--palm-full;
+        @extend %gutters-large;
+    }
+
+    .gc-content{
+        @extend %grid__item;
+    }
+
+    .gc-sidebar{
+        @extend %grid__item;
+        @extend %grid__item--fifth;
+    }
+
+ */
+
+/*------------------------------------*    !GRIDS
+\*------------------------------------*/
+
+/**
+ * !IMPORTANT - It is best to only attach grid and/or width styles to your
+ * grid classes. Don't clutter them with other styles. Instead add markup
+ * inside these divs and then style those.
+ *
+ * grid blocks need to start with .g- and grid cells should start with .gc-
+ *
+ * @extend %grid__item is only needed when there isn't another extend
+ * defining it's flex width.
+ *
+ * Note: If you don't give a grid cell a width it will just fill the
+ * remaining space.
+ */
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+ *  NAVS
+ */
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   <ul class="nav  nav--left">
+       <li><a href="#">About</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="#">Portfolio</a></li>
+       <li><a href="#">Search</a></li>
+   </ul>
+ */
+
+/**
+ * ^Class Options
+
+ * Blocks:      .nav
+ * Modifiers:   .nav--fit
+                .nav--stacked
+                .nav--center
+                .nav--right
+                .nav--left
+                .nav--space-between
+                .nav--space-around
+                .nav--keywords
+                .nav--pagination
+                .nav--breadcrumb
+                .nav--breadcrumb--path
+                .nav--breadcrumb--custom
+ */
+
+/*------------------------------------*    !NAVS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  BASE TYPE SETTINGS
+ */
+
+/**
+ * Credit: Typesettings.io
+ */
+
+/*------------------------------------*    !BASE TYPE SETTINGS
+\*------------------------------------*/
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.9994em;
+  line-height: 0.93778;
+  margin-bottom: 0.62519em;
+}
+
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 3.99758em;
+    line-height: 0.78172;
+    margin-bottom: 0.31269em;
+  }
+}
+
+h2 {
+  font-size: 1.414em;
+  line-height: 1.10502;
+  margin-bottom: 0.88402em;
+}
+
+@media (min-width: 56.25em) {
+  h2 {
+    font-size: 2.82715em;
+    line-height: 0.88428;
+    margin-bottom: 0.44214em;
+  }
+}
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+        Example
+ *  FORMS
+ */
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   1. Keep the 'form-' but 'quarters' can be renamed to be whatever you want.
+
+   <form>
+       <ul class="form-quarters">
+           <li>
+               <label>Name</label>
+               <input type="text">
+           </li>
+           <li class="form-error">
+               <span class="label">Title</span>
+               <ul class="check-list">
+                   <li>
+                       <input type="checkbox"> <label>Mr.</label>
+                   </li>
+                   <li>
+                       <input type="checkbox"> <label>Mrs.</label>
+                   </li>
+                   <li>
+                       <input type="checkbox"> <label>Miss.</label>
+                   </li>
+               </ul>
+               <span class="form-error__message">Error message</span>
+           </li>
+           <li class="form-item-half">
+               <label>Email</label>
+               <input type="text">
+           </li>
+           <li>
+               <span class="label">Gender</span>
+               <ul class="check-list  check-list--inline">
+                   <li>
+                       <input type="radio"> <label>Male</label>
+                   </li>
+                   <li>
+                       <input type="radio"> <label>Female</label>
+                   </li>
+                   <li>
+                       <input type="radio"> <label>Female</label>
+                   </li>
+               </ul>
+           </li>
+       </ul>
+   </form>
+ */
+
+/**
+ * ^Class Options
+
+ * Apply on .form-*
+ * Block:       %form
+   Modifiers:   %form--fit
+                %form--full
+                %form--halves
+                %form--thirds
+                %form--quarters
+                %form--fifths
+
+                (You can replace 'palm' with: lap, portable, desk, or wide.)
+                %form--palm-full
+                %form--palm-halves
+                %form--palm-quarters
+                %form--palm--fifths
+
+                %form-gutters-medium
+                %form-gutters-large
+                %form-gutters-xlarge
+
+                (You can replace 'palm' with: lap, portable, desk, or wide.)
+                %form-gutters--palm-small
+                %form-gutters--palm-medium
+                %form-gutters--palm-large
+                %form-gutters--palm--xlarge
+
+
+ * Make your own class as needed and apply to li
+   Elements
+   Modifiers:   %form__item--full
+                %form__item--half
+                %form__item--third
+                %form__item--quarter
+                %form__item--fifth
+
+                (You can replace 'palm' with: lap, portable, desk, or wide.)
+                %form__item--palm-full
+                %form__item--lap-full
+                %form__item--portable-full
+                %form__item--desk-full
+                %form__item--wide-full
+
+ * Options
+                .form-inline
+                .input-addon
+ */
+
+/**
+ * ^Example
+
+   .form-quarters{
+        @extend %form;
+        @extend %form--quarters;
+        @extend %form--palm-full;
+        @extend %form-gutters-xlarge;
+    }
+
+   .form-item-half{
+        @extend %form__item--half;
+   }
+
+ */
+
+/*------------------------------------*    !FORMS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+ *  BUTTONS
+ */
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   <button class="btn  btn--large  btn--primary">Primary Button</a>
+   <a href="#" class="btn  btn--secondary">Secondary Button</a>
+ */
+
+/**
+ * ^Class Options
+
+ * Blocks:      .btn
+ * Modifiers:   .btn--large
+                .btn--small
+                .btn--block
+                .btn--natural
+                .btn--disabled
+                .btn--{{you define color names}} (see the $button-colors var in _button-options.scss)
+ */
+
+/*------------------------------------*    !BUTTONS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+ *  TOOL TIP
+ */
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+    <div class="tip-container">
+        <span class="tip-trigger">?</span>
+        <span class="tip  tip--left"> 
+            Tip Content Here
+            <span class="tip__close">&#215;</span>
+        </span>
+    </div>
+ */
+
+/**
+ * ^Class Options
+
+ * Blocks:      .tip
+ * Modifiers:   .tip--top
+                .tip--right
+                .tip--bottom
+                .tip--left
+                .tip--fixed-width
+ */
+
+/*------------------------------------*    !TOOL TIP
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+ *  TABLES
+*/
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   <table class="table  table--bordered  table--striped">
+       <colgroup>
+           <col class="t10">
+           <col class="t10">
+           <col class="t10">
+           <col>
+       </colgroup>
+       <thead>
+           <tr>
+               <th colspan="3">Foo</th>
+               <th>Bar</th>
+           </tr>
+           <tr>
+               <th>Lorem</th>
+               <th>Ipsum</th>
+               <th class="numerical">Dolor</th>
+               <th>Sit</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <th rowspan="3">Sit</th>
+               <td>Dolor</td>
+               <td class="numerical">03.788</td>
+               <td>Lorem</td>
+           </tr>
+           <tr>
+               <td>Dolor</td>
+               <td class="numerical">32.210</td>
+               <td>Lorem</td>
+           </tr>
+           <tr>
+               <td>Dolor</td>
+               <td class="numerical">47.797</td>
+               <td>Lorem</td>
+           </tr>
+           <tr>
+               <th rowspan="2">Sit</th>
+               <td>Dolor</td>
+               <td class="numerical">09.640</td>
+               <td>Lorem</td>
+           </tr>
+           <tr>
+               <td>Dolor</td>
+               <td class="numerical">12.117</td>
+               <td>Lorem</td>
+           </tr>
+       </tbody>
+   </table>
+
+ */
+
+/**
+ * ^Class Options
+
+ * Blocks:      .table (optional)
+ * Modifiers:   .table--bordered
+                .table--striped
+                .table--responsive
+ */
+
+/*------------------------------------*    !TABLES
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+ *  MODALS
+ */
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   <a href="#modal-1" rel="modal:open">Open Modal One</a>
+   <a href="#modal-2" rel="modal:open">Open Modal Two</a>
+
+   <div id="modal-1" class="modal-block">
+       <div class="modal__block-600">
+           ...
+       </div>
+   </div>
+
+   <div id="modal-2" class="modal-block">
+       <form action="#">
+           ...
+       </form>
+   </div>
+
+   <div class="modal">
+       <div class="modal-inner">
+           <a rel="modal:close">&times;</a>
+           <div class="modal-content"></div>
+       </div>
+   </div>
+ */
+
+/**
+ * ^Class Options
+
+ * Modifiers:   .modal__block-{{you define width number}}
+ * (see $modal-fixed-widths in _modal-options.scss)
+ */
+
+/*------------------------------------*    !MODALS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+ *  NOTIFICATIONS
+ */
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   <div class="notification-wrapper  notification-wrapper--bottom-right">
+       <div class="notification  notification--info">
+           <div class="notification__title-bar">
+               <h3 class="notification-title"><i class="icon" data-icon="&#xf057;"></i> Message Title</h3>
+               <div class="notification-close-btn">
+                   <i class="icon" data-icon="&#xf00d;"></i>
+               </div>
+           </div>
+           <div class="notification-content">
+               <p class="notification-text">Message Text that goes on for a while so show a large message.</p>
+           </div>
+       </div>
+   </div>
+ */
+
+/**
+ * ^Class Options
+
+ * Blocks:      .notification-wrapper
+                .notification
+ * Modifiers:   .notification-wrapper--bottom-right
+                .notification-wrapper--bottom-left
+                .notification-wrapper--top-right
+                .notification-wrapper--top-left
+                .notification--{{you define color names}} (see the $notification-colors var in _notifications-options.scss)
+ */
+
+/*------------------------------------*    !NOTIFICATIONS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+ *  MEDIA
+ */
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   YouTube
+   <div class="media">
+       <iframe src="http://www.youtube.com/embed/eRW84aVCMWo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+   </div>
+
+   Instagram
+   <div class="media media--instagram">
+       <iframe src="http://instagram.com/p/dJJvzMI4X8/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+   </div>
+
+   Vine
+   <div class="media media--vine">
+       <iframe src="https://vine.co/v/bYwPIluIipH/embed/simple" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+   </div>
+
+   Vimeo
+   <div class="media media--vimeo">
+       <iframe src="http://player.vimeo.com/video/24954567" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+   </div>
+
+   Google Maps
+   <div class="media">
+       <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps?q=glasgow&amp;ie=UTF8&amp;hq=&amp;hnear=Glasgow,+Glasgow+City,+United+Kingdom&amp;gl=uk&amp;t=m&amp;z=11&amp;iwloc=A&amp;output=embed"></iframe>
+       <br>
+       <small><a href="http://maps.google.co.uk/maps?q=glasgow&amp;ie=UTF8&amp;hq=&amp;hnear=Glasgow,+Glasgow+City,+United+Kingdom&amp;gl=uk&amp;t=m&amp;z=11&amp;iwloc=A&amp;source=embed" style="color: #0000FF; text-align: left">View Larger Map</a></small>
+   </div>
+
+ */
+
+/**
+ * ^Class Options
+
+ * Blocks:      .media
+   Modifiers:   .media--scroll
+                .media--vimeo
+                .media--instgram
+                .media--vine
+ */
+
+/*------------------------------------*    !START YOUR MEDIA STYLES HERE
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+ *  LISTS
+ */
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   <ol class="list-colored">
+       <li>This is a list and stuff</li>
+       <li>And a list with a <a href="#">link</a> in it</li>
+       <li>And a third list.</li>
+       <li>Finally the last list here.</li>
+   </ol>
+
+ */
+
+/**
+ * ^Class Options
+
+ * Blocks:      <ul>, <ol>
+   Options:     .list-no-bullets
+                .list-ordered
+ */
+
+/*------------------------------------*    !LISTS
+\*------------------------------------*/
+
+/*------------------------------------*    CONTENTS
+\*------------------------------------*/
+
+/**
+ *  USAGE
+        HTML
+        Class Options
+ *  CODE
+ */
+
+/*------------------------------------*    !USAGE
+\*------------------------------------*/
+
+/**
+ * ^HTML
+
+   <p>Lorem ipsum dolor sit amet, <code>Atque facere</code> consectetur</p>
+
+   <pre class="code-scrollable"><code>&lt;ol class="nav  nav--keywords"&gt;
+       &lt;li&gt;Word One&lt;/li&gt;
+       &lt;li&gt;Word Two&lt;/li&gt;
+       &lt;li&gt;Word Three&lt;/li&gt;
+   &lt;/ol&gt;</code></pre>
+ */
+
+/**
+ * ^Class Options
+
+ * Blocks:      <code>, <pre>
+ * Options:     .code-scrollable
+ */
+
+/*------------------------------------*    !CODE
+\*------------------------------------*/

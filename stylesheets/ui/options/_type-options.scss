@@ -1,0 +1,101 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE TYPE
+ *  VARIABLES
+ *      Custom Fonts
+ *      Font Vars
+ */
+
+////
+/// @group typography
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE TYPE
+\*------------------------------------*/
+
+/// Turn on/off typography for your application
+/// @type boolean
+$use-type:                          false;
+
+
+
+
+
+/*------------------------------------*\
+    !VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Custom Fonts
+ */
+
+/// List the fonts you'd like to use with @font-face here. They will be output in your css.
+/// The .woff file is all that is needed.
+/// See assemble.css/base/type/_type-print.scss for how these get printed out for use.
+/// @type map
+/// @example
+///     $fonts: (
+///         helvetica_neue: (
+///             name:   'Helvetica Neue',
+///             src:    '../fonts/helvetica-neue.woff'
+///         )
+///     );
+$fonts: (
+
+);
+
+
+/**
+ * ^Font Vars
+ *      These are used so you can use assign fonts to elements in your project
+ */
+
+/// The sans-serif font stack
+/// @type string
+$font-sans:                         Helvetica, Arial, sans-serif !default;
+
+/// The serif font stack
+/// @type string
+$font-serif:                        Georgia, 'Times New Roman', serif !default;
+
+/// The mono font stack
+/// @type string
+$font-mono:                         'Lucida Console', Monaco, monospace !default;
+
+/// The default text color
+/// @type color
+$text-color:                        #000 !default;
+
+/// The vertical grid unit. Margin, padding, and line-height are set to multiples of this value.
+/// This is the value that determines the baseline for our vertical rhythm. The default value of 6px
+/// allows more fine tuned designs that still obey vertical rhythm.
+/// @type number
+$base-vertical-unit:                5px !default;
+
+/// The value that multiplies the $base-vertical-unit to get the $base-line-height. This gives type
+/// an ideal line-height.
+/// @type number
+$base-line-multi:                   4 !default;
+
+/// Base font size in pixels.
+/// @type number
+$base-font-size:                    16px !default;
+
+/// Modular scale ratio that is used to figure out all the different font sizes
+/// @type number
+$ms-ratio:                          1.414 !default;
+
+/// Do you want to indent your paragraphs
+/// @type boolean
+$paragraph-indent:                  false !default;
+
+/// Do you want justified content in your paragraphs
+/// @type boolean
+$paragraph-justify:                 false !default;

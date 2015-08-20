@@ -1,0 +1,96 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE MODALS
+ *  DESIGN VARIABLES
+        Overlay
+        Modal Inner
+        Modal Close
+ *  MODAL FIXED WIDTHS
+ */
+
+////
+/// @group modals
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE MODALS
+\*------------------------------------*/
+
+/// Turn on/off the modals for your application.
+/// @type boolean
+$use-modals:                         false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/**
+ * ^Overlay
+ */
+
+/// Set the overlay color for your modals.
+/// @type color
+$modal-overlay-color:    rgba(0, 0, 0, .6);
+
+
+/**
+ * ^Modal Inner
+ */
+
+/// Set the inner padding for your modals.
+/// @type number
+$modal-inner-padding:              15px;
+
+/// Set the inner background color for your modals.
+/// @type color
+$modal-inner-background-color:     #FFF;
+
+
+/**
+ * ^Modal Close
+ */
+
+/// Set the background color of your modal close icon.
+/// @type color
+$modal-close-background-color:      #000;
+
+/// Set the color of your modal close icon.
+/// @type color
+$modal-close-color:                 #FFF;
+
+
+
+
+
+
+
+/*------------------------------------*\
+    !MODAL FIXED WIDTHS
+\*------------------------------------*/
+
+/**
+ * Set the widths you need in your layout here.
+ * These are px values.
+ * It will return classes like this:
+ * .modal__block-600{
+ *     max-width: 600px;
+ * }
+ */
+
+/// Set the widths of your modal windows. Each value will output a class for you to use.
+/// Example: .modal__block-600
+/// @type map
+$modal-fixed-widths: (
+    '600',
+    '800'
+);

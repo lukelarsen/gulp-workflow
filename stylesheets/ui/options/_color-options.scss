@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  COLOR PALETTE
+ */
+
+
+
+
+
+/*------------------------------------*\
+    !COLOR PALETTE
+\*------------------------------------*/
+
+/**
+ *  ^Get color example
+ *  color(blue, dark); --returns--> #1b3c64
+ */
+
+/// A variable map to hold all our color values. Found in ui/options/_color-options.scss
+/// @group colors
+/// @prop {map} map - Parent color
+/// @prop {color} key - Hue of the parent color
+/// @type map
+$color-palette: (
+    blue: (
+        base:       #3C76B9,
+        light:      #4A90E2,
+        dark:       #1B3C64,
+        contrast:   #FFF
+    ),
+    gray: (
+        base:       #993,
+        light:      #DDD,
+        dark:       #666
+    )
+);

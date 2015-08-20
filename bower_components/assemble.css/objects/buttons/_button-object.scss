@@ -1,0 +1,151 @@
+@if $use-buttons == true{
+    /*------------------------------------*\
+        CONTENTS
+    \*------------------------------------*/
+    /**
+     *  BUTTON BASE
+     *  BUTTON MODIFIERS
+            Button Sizes
+            Button Types
+     *  BUTTON CLEAN UP
+     *  BUTTON GROUP
+     */
+
+    /**
+     *  Highly influenced by inuit.css from @csswizardry
+     */
+
+
+
+
+
+    /*------------------------------------*\
+        !BUTTON BASE
+    \*------------------------------------*/
+
+    .btn{
+        display: inline-block;
+        margin: 0;
+        padding: $btn-padding;
+        transition: background-color .2s ease-in-out;
+        border: 0;
+        outline: none;
+        background-color: #000;
+        cursor: pointer;
+        color: #FFF;
+        font-family: inherit;
+        font-size: $btn-default-font-size;
+        text-decoration: none;
+        white-space: nowrap;
+        overflow: visible;
+        vertical-align: middle;
+
+
+
+
+
+        /*------------------------------------*\
+            !BUTTON MODIFIERS
+        \*------------------------------------*/
+
+        /**
+         * ^Button Sizes
+         */
+        @if $btn--large == true{
+            &--large{
+                font-size: $btn-default-font-size * $btn-size-ratio;
+            }
+        }
+
+        @if $btn--small== true{
+            &--small{
+                font-size: $btn-default-font-size / $btn-size-ratio;
+            }
+        }
+
+        @if $btn--block == true{
+            &--block{
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+
+        /**
+         * ^Button Types
+         */
+        @if $btn--natural == true{
+            &--natural{
+                height: auto;
+                padding-right: .5em;
+                padding-left: .5em;
+                font-size: inherit;
+                line-height: inherit;
+                vertical-align: baseline;
+            }
+        }
+
+        @if $btn--disabled == true{
+            &--disabled{
+                background-color: #DDD;
+                color: #777;
+
+                &:hover,
+                &:active,
+                &:focus{
+                    background-color: #DDD !important;
+                    cursor: not-allowed;
+                    color: #777 !important;
+                }
+            }
+        }
+
+
+
+
+
+        /*------------------------------------*\
+            !BUTTON CLEAN UP
+        \*------------------------------------*/
+
+        &:hover,
+        &:active,
+        &:focus,
+        &:visited{
+            text-decoration: none;
+        }
+
+        &:active,
+        &:focus{
+            outline: none;
+        }
+
+        &::-moz-focus-inner{
+            padding: 0;
+            border: 0;
+        }
+    }
+
+
+
+
+
+    /*------------------------------------*\
+        !BUTTON GROUP
+    \*------------------------------------*/
+
+    @if $btn-group == true{
+        .btn-group{
+            @extend %cf;
+            display: inline-block;
+            position: relative;
+            white-space: nowrap;
+            vertical-align: middle;
+
+            > *{
+                float: left;
+            }
+        }
+    }
+}

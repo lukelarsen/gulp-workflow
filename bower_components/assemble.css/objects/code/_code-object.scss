@@ -1,0 +1,65 @@
+@if $use-code == true{
+    /*------------------------------------*\
+        CONTENTS
+    \*------------------------------------*/
+    /**
+     *  CODE BASE
+     *  SCROLLABLE
+     */
+
+    /**
+     *  Credit goes to responsivebp.com by @james_m_south
+     */
+
+
+
+
+
+    /*------------------------------------*\
+        !CODE BASE
+    \*------------------------------------*/
+
+    pre,
+    code{
+        padding: $code-padding;
+        @if $code-border == true{
+            border: $code-border-size $code-border-type $code-border-color;
+        }
+        background-color: $code-background-color;
+        color: $code-color;
+    }
+
+    code{
+        padding: $code-inline-padding;
+    }
+
+    pre code{
+        padding: 0;
+        border: 0;
+    }
+
+    pre{
+        overflow-x: auto;
+    }
+
+    pre code{
+        white-space: pre;
+        -ms-word-wrap: normal;
+        word-wrap: normal;
+    }
+
+
+
+
+
+    /*------------------------------------*\
+        !SCROLLABLE
+    \*------------------------------------*/
+
+    @if $code-scrollable == true{
+        .code-scrollable{
+            max-height: $code-scroll-max-height;
+            overflow-y: scroll;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/**
+ *  USE CODE
+ *  DESIGN VARIABLES
+ *  MODIFIER VARIABLES
+ */
+
+////
+/// @group code
+////
+
+
+
+
+
+/*------------------------------------*\
+    !USE CODE
+\*------------------------------------*/
+
+/// Turn on/off code styling for your application.
+/// @type boolean
+$use-code:                          false;
+
+
+
+
+
+/*------------------------------------*\
+    !DESIGN VARIABLES
+\*------------------------------------*/
+
+/// Set background color for code blocks.
+/// @type color
+$code-background-color:             #F7F7F9;
+
+/// Set if code blocks should have a border.
+/// @type boolean
+$code-border:                       true;
+
+/// Set border color of code blocks.
+/// @type color
+$code-border-color:                 #C0C0C0;
+
+/// Set border size of code blocks.
+/// @type number
+$code-border-size:                  1px;
+
+/// Set border style of code blocks.
+/// @type string
+$code-border-type:                  solid;
+
+/// Set color of code blocks.
+/// @type color
+$code-color:                        #AD0D36;
+
+/// Set padding of code blocks.
+/// @type number
+$code-padding:                      .5em;
+
+/// Set padding for inline code blocks.
+/// @type number
+$code-inline-padding:               .2em .25em;
+
+/// Set height for when a scroll bar should appear for code blocks.
+/// @type number
+$code-scroll-max-height:            20em;
+
+
+
+
+
+/*------------------------------------*\
+    !MODIFIER VARIABLES
+\*------------------------------------*/
+
+/// Set if code blocks can have scroll bars if they are tall.
+/// @type boolean
+$code-scrollable:                   false;
