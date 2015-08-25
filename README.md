@@ -1,4 +1,8 @@
 #My Gulp Workflow
+- [Usage](#Usage)
+- [Tasks](#Tasks)
+- [Functions](#Functions)
+
 ##Usage
 The only files you need:
 - package.json
@@ -41,7 +45,7 @@ Set the default gulp task to be the help task.
 ###sass
 Compiles our Sass.
 
-####Dependencies
+#####Dependencies
 1. Task - [clean-styles](#clean-styles)
 1. Function - [log](#log)
 1. Plugin - Plumber
@@ -98,7 +102,7 @@ Some stuff here
 ###workon
 Some stuff here
 
-##Custom Functions
+##Functions
 - [log](#log)
 - [clean](#clean)
 - [getWiredepDefaultOptions](#getWiredepDefaultOptions)
