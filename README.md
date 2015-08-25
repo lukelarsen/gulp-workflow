@@ -1,7 +1,7 @@
 #My Gulp Workflow
-- [Usage](#Usage)
-- [Tasks](#Tasks)
-- [Functions](#Functions)
+- [Usage](#usage)
+- [Tasks](#tasks)
+- [Functions](#functions)
 
 ##Usage
 The only files you need:
