@@ -474,7 +474,7 @@ function log(msg) {
 }
 
 
-// ^Cleaning
+// ^Clean
 function clean(path, done) {
     log('Cleaning: ' + $.util.colors.blue(path));
     del(path, done);
