@@ -1,5 +1,5 @@
-##My Gulp Workflow
-###Usage
+#My Gulp Workflow
+##Usage
 The only files you need:
 - package.json
 - .bowerrc (if you use Bower)
@@ -11,7 +11,7 @@ All the other files are for testing to see if the gulp file runs as intended.
 2. Run npm install
 3. Adjust any of the configuration variables you need in the gulpfile to fit your project
 
-###Tasks
+##Tasks
 - [help](#help)
 - [default](#default)
 - [sass](#sass)
@@ -32,19 +32,16 @@ All the other files are for testing to see if the gulp file runs as intended.
 - [bump](#bump)
 - [workon](#workon)
 
-####help
-#####Description
+###help
 Used to get a list of the available gulp tasks and sub tasks.
 
-####default
-#####Description
+###default
 Set the default gulp task to be the help task.
 
-####sass
-#####Description
+###sass
 Compiles our Sass.
 
-#####Dependencies
+####Dependencies
 1. Task - [clean-styles](#clean-styles)
 1. Function - [log](#log)
 1. Plugin - Plumber
@@ -53,64 +50,64 @@ Compiles our Sass.
 1. Plugin - Autoprefixer
 1. Plugin - Browser Sync
 
-####sassdoc
+###sassdoc
 Some stuff here
 
-####images
+###images
 Some stuff here
 
-####fonts
+###fonts
 Some stuff here
 
-####watch
+###watch
 Some stuff here
 
-####clean-styles
+###clean-styles
 Some stuff here
 
-####clean-styles-build
+###clean-styles-build
 Some stuff here
 
-####clean-images
+###clean-images
 Some stuff here
 
-####clean-fonts
+###clean-fonts
 Some stuff here
 
-####clean-build
+###clean-build
 Some stuff here
 
-####wiredep
+###wiredep
 Some stuff here
 
-####inject
+###inject
 Some stuff here
 
-####serve
+###serve
 Some stuff here
 
-####optimize
+###optimize
 Some stuff here
 
-####build
+###build
 Some stuff here
 
-####bump
+###bump
 Some stuff here
 
-####workon
+###workon
 Some stuff here
 
-###Custom Functions
+##Custom Functions
 - [log](#log)
 - [clean](#clean)
 - [getWiredepDefaultOptions](#getWiredepDefaultOptions)
 
-####log
+###log
 Some stuff here
 
-####clean
+###clean
 Some stuff here
 
-####getWiredepDefaultOptions
+###getWiredepDefaultOptions
 Some stuff here
