@@ -1,6 +1,6 @@
 ##My Gulp Workflow
 ###Usage
-The only files you need to use the gulp file are:
+The only files you need:
 - package.json
 - .bowerrc (if you use Bower)
 - gulpfile.js
@@ -33,13 +33,25 @@ All the other files are for testing to see if the gulp file runs as intended.
 - [workon](#workon)
 
 ####help
-Some stuff here
+#####Description
+Used to get a list of the available gulp tasks and sub tasks.
 
 ####default
-Some stuff here
+#####Description
+Set the default gulp task to be the help task.
 
 ####sass
-Some stuff here
+#####Description
+Compiles our Sass.
+
+#####Dependencies
+1. Task - [clean-styles](#clean-styles)
+1. Function - [log](#log)
+1. Plugin - Plumber
+1. Plugin - Sass
+1. Plugin - Uncss
+1. Plugin - Autoprefixer
+1. Plugin - Browser Sync
 
 ####sassdoc
 Some stuff here
