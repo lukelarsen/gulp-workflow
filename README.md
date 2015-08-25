@@ -1,4 +1,4 @@
-####My Gulp Workflow
+##My Gulp Workflow
 ###Usage
 The only files you need to use the gulp file are:
 - package.json
@@ -12,28 +12,28 @@ All the other files are for testing to see if the gulp file runs as intended.
 3. Adjust any of the configuration variables you need in the gulpfile to fit your project
 
 ###Tasks
-- [gulp help](#gulp_help)
-- [gulp](#default)
+- [help](#help)
+- [default](#default)
 
-- [gulp sass](#default)
-- [gulp sassdoc](#default)
-- [gulp images](#default)
-- [gulp fonts](#default)
-- [gulp watch](#default)
-- [gulp clean-styles](#default)
-- [gulp clean-styles-build](#default)
-- [gulp clean-images](#default)
-- [gulp clean-fonts](#default)
-- [gulp clean-build](#default)
+- [sass](#sass)
+- [sassdoc](#sassdoc)
+- [images](#images)
+- [fonts](#fonts)
+- [watch](#watch)
+- [clean-styles](#clean-styles)
+- [clean-styles-build](#clean-styles-build)
+- [clean-images](#clean-images)
+- [clean-fonts](#clean-fonts)
+- [clean-build](#clean-build)
 
-###gulp help
+###help
 Some stuff here
 
 ###default
 Some stuff here
 
-###gulp sass
+###sass
 Some stuff here
 
-###gulp sassdoc
+###sassdoc
 Some stuff here
